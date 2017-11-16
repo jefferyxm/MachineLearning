@@ -20,8 +20,8 @@ bunch = Bunch(target_name=[], label=[], filename=[], contents=[])
 
 
 # transfrom to bunch
-wordbag_path = "wordbag/wordbag.dat"
-seg_path = "result/"
+wordbag_path = "wordbag/test_wordbag.dat"
+seg_path = "result_test/"
 
 catelist = os.listdir(seg_path)
 bunch.target_name.extend(catelist)      # target name

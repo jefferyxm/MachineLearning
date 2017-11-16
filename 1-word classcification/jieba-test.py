@@ -25,8 +25,8 @@ def readfile(filepath):
     return content
 
 
-corpus_path = "data/train/"
-result_path = "result/"
+corpus_path = "data/test/"
+result_path = "result_test/"
 
 catelist = os.listdir(corpus_path)
 
